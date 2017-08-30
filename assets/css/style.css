@@ -1,0 +1,257 @@
+.navbar-default .navbar-brand {
+background: #6C6CD0;
+	text-align: center;
+    font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: white;
+  letter-spacing: 6px;
+  font-weight: 400;
+  
+
+}
+
+.navbar-right {
+    font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: 200;
+  
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/symphony.png);
+  padding-bottom: 100px; 
+  padding-top: 100px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* general */
+
+h1,
+h2,
+h3,
+p {
+  margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: gray;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 10px;
+  border-bottom: 3px solid #ddd;
+}
+
+h2,
+h3 {
+  font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+
+  padding: 30px 0;
+  font-size: 10px;
+  text-align: center;
+  background: #6C6CD0;
+  border-top: 3px solid #5495DE;
+     font-family: 'Open Sans', sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+/* sidebar */
+
+.sidebar {
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0px auto;
+}
+
+h3,
+.sidebar h2 {
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+  border-bottom: 2px solid #eee;
+}
+
+.social {
+  display: inline;
+  width: 62px;
+  height: 62px;
+}
+
+
+.social:last-child {
+  margin: auto;
+}
+
+
+.connect {
+	align-content: right;
+}
+
+/* main */
+
+#main-container {
+  padding-top: 30px;
+}
+
+.main-section {
+  width: 100%;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+
+/* portfolio page */
+
+.work-section {
+    width: 100%;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
+
+.work {
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #6C6CD0;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+
+}
+
+/* contact page */
+.content-section {
+    width: 100%;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: inline-block;
+
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: yellow;
+  border: 0 none;
+}
+
+input-group {
+  width: 100%;
+}
+
+.btn-default {
+  background: #6C6CD0;
+  color: white;
+
+    font-family: 'Open Sans', sans-serif;
+
+}
